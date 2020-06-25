@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+.header {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:auto;
+    width:100%;
+    /*opacity: 0.5;*/
+    background-color:black;
+    position:fixed;
+    margin-bottom: 10px;
+}
+.main{
+    display:flex;
+    flex-direction: column;
+}
+.body{
+    width:1400px;
+    margin:auto;
+}
+.mainDescription2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+    color:white;
+    font-weight: bold;
+}
+.mainDescription1{
+
+    font-size: 80px;
+    color:white;
+    font-weight: bold;
+}
+.descriptionDiv{
+    background-color: blue;
+    opacity: 0.5;
+    height:600px;
+    width: 800px;
+    margin:auto;
+}
+.name{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    color:deepskyblue;
+    margin-left: 20px;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+.nameAndPicture {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+.button {
+    background-color: black;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    color:deepskyblue;
+    margin:10px;
+}
+.pictureAndTitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.skillsImage{
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+
+}
+.flutterImage{
+    width: 300px;
+    height: 600px;
+    object-fit: cover;
+    margin:10px;
+
+}
+.desktopImage{
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    margin:10px;
+
+}
+.formInput{
+    margin-top: 10px;
+    width:300px;
+    height:20px;
+}
+.textArea{
+    margin-top: 10px;
+    width:300px;
+    height:100px;
+}
+.button{
+    margin:30px;
+}
+.whatsapp{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.section1{
+    width:1400px;
+    margin:auto;
+    object-fit: cover;
+}
+form{
+    display:flex;
+    flex-direction: column;
+    width: 800px;
+    margin:auto;
+}
