@@ -98,6 +98,18 @@ class HomePage extends React.Component {
                             <p style={{ color:'gray',fontSize:30,fontWeight:'bold' }}>Some of my latest work.</p>
                         </div>
                         <div>
+                            <p style={{ color:'black',fontSize:30,fontWeight:'bold' }}>McLaren Times App</p>
+                            <a href="https://www.youtube.com/watch?v=_IskxFpf7F0" target="_blank" rel="noopener noreferrer"><img alt=""  src={require('../youtube.png')} style={{width: 50, height: 50, borderRadius: 50/ 2,marginLeft:10}} /></a>
+                            <p style={{ color:'gray',fontSize:20,fontWeight:'bold' }}>This is a Flutter News App based on Hacker Times api.The Stories
+                                have been distributed across different 'day' Tabs as per the story-timestamp.The viewer has options to vote for or suggest a
+                                subtitle or image.Firebase has been used at the backend to maintain user records and updates.</p>
+
+                            <img alt="" className='flutterImage' src={require('../mcTimes1.png')} />
+                            <img alt="" className='flutterImage' src={require('../mcTimes2.png')} />
+                            <img alt="" className='flutterImage' src={require('../mcTimes3.png')} />
+                            <img alt="" className='flutterImage' src={require('../mcTimes4.png')} />
+                        </div>
+                        <div>
                             <p style={{ color:'black',fontSize:30,fontWeight:'bold' }}>Tic Tac Toe App</p>
                             <a href="https://github.com/sabhishek78/tic_tac_toe_starter" target="_blank" rel="noopener noreferrer"><img alt=""  src={require('../githubIcon.png')} style={{width: 50, height: 50, borderRadius: 50/ 2}} /></a>
                             <a href="https://github.com/sabhishek78/tic_tac_toe_starter" target="_blank" rel="noopener noreferrer"><img alt="" src={require('../youtube.png')} style={{width: 50, height: 50, borderRadius: 50/ 2,marginLeft:10}} /></a>
@@ -108,17 +120,7 @@ class HomePage extends React.Component {
                             <img alt="" className='flutterImage' src={require('../tictactoe3.png')} />
                           
                         </div>
-                        <div>
-                            <p style={{ color:'black',fontSize:30,fontWeight:'bold' }}>McLaren Times App</p>
-                            <p style={{ color:'gray',fontSize:20,fontWeight:'bold' }}>This is a Flutter News App based on Hacker Times api.The Stories
-                            have been distributed across different 'day' Tabs as per the story-timestamp.The viewer has options to vote for or suggest a
-                            subtitle or image.Firebase has been used at the backend to maintain user records and updates.</p>
-                            <a href="https://github.com/sabhishek78/tic_tac_toe_starter" target="_blank" rel="noopener noreferrer"><img alt=""  src={require('../youtube.png')} style={{width: 50, height: 50, borderRadius: 50/ 2,marginLeft:10}} /></a>
-                            <img alt="" className='flutterImage' src={require('../mcTimes1.png')} />
-                            <img alt="" className='flutterImage' src={require('../mcTimes2.png')} />
-                            <img alt="" className='flutterImage' src={require('../mcTimes3.png')} />
-                            <img alt="" className='flutterImage' src={require('../mcTimes4.png')} />
-                        </div>
+
                         <div>
                             <p style={{ color:'black',fontSize:30,fontWeight:'bold' }}>Movie Carousel App</p>
                             <a href="https://github.com/sabhishek78/day_4_movies_assignment" target="_blank" rel="noopener noreferrer"><img alt=""  src={require('../githubIcon.png')} style={{width: 50, height: 50, borderRadius: 50/ 2}} /></a>
