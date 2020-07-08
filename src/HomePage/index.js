@@ -91,7 +91,7 @@ class HomePage extends React.Component {
                         </div>
                     <div>
                         <p style={{ color:'black',fontSize:50,fontWeight:'bold' }}>GitHub Activity Screenshot</p>
-                        <img alt="" className='flutterImage' src={require('../githubprofile.jpg')} />
+                        <img alt="" className='desktopImage' src={require('../githubprofile.jpg')} />
                     </div>
                     </div>
                     <div id='portfolio'>
