@@ -89,6 +89,10 @@ class HomePage extends React.Component {
                             <p style={{ color:'black',fontSize:30,fontWeight:'bold' }}>Cloud Integration</p>
                             <p style={{ color:'gray',fontSize:20,fontWeight:'bold' }}>Deployment of NodeJS apps, ReactJS apps and databases to leading cloud platforms such as Firebase and Amazon AWS.</p>
                         </div>
+                    <div>
+                        <p style={{ color:'black',fontSize:50,fontWeight:'bold' }}>GitHub Activity Screenshot</p>
+                        <img alt="" className='flutterImage' src={require('../githubprofile.jpg')} />
+                    </div>
                     </div>
                     <div id='portfolio'>
 
